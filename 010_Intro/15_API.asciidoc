@@ -102,7 +102,7 @@ a full request like:
 
 [source,js]
 --------------------------------------------------
-curl -XGET 'localhost:9200/_count?pretty' -d '
+curl -XGET 'localhost:9200/_count?pretty' ' -d '
 {
     "query": {
         "match_all": {}
